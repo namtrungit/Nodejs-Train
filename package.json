@@ -4,7 +4,8 @@
   "description": "Basic Nodejs",
   "main": "index.js",
   "dependencies": {
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "ng2-cookies": "^1.0.12"
   },
   "devDependencies": {},
   "scripts": {
