@@ -31,12 +31,12 @@ var http = require('http');
 // })
 
 //Writefile()
-// fs.writeFile('trung3.txt','Trungpro',function(err){
-//     if(err){
-//         console.log(err);
-//     }
-//     console.log('Success');
-// })
+fs.writeFile('trung3.txt','Trungpro',function(err){
+    if(err){
+        console.log(err);
+    }
+    console.log('Success');
+})
 
 //DeleteFile: unlink()
 // fs.unlink('trung3.txt',function(err){
@@ -47,9 +47,9 @@ var http = require('http');
 // })
 
 //Rename: rename()
-fs.rename('trung2.txt','trung3.txt',function(err){
-    if(err){
-        console.log(err);
-    }
-    console.log('Success');
-})
+// fs.rename('trung2.txt','trung3.txt',function(err){
+//     if(err){
+//         console.log(err);
+//     }
+//     console.log('Success');
+// })
